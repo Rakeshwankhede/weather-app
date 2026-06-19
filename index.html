@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App V2.0 by rakesh</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="weather-card">
+    <div class="header">
+      <h1>Weather Detector 🌤️</h1>
+      <button id="themeBtn">🌙</button>
+    </div>
+
+    <div class="search-box">
+      <input type="text" id="cityInput" placeholder="Enter City: Pune, Mumbai...">
+      <button id="searchBtn">Get Weather</button>
+      <button id="locBtn">📍</button>
+    </div>
+
+    <div class="history" id="history"></div>
+
+    <div class="weather-result" id="weatherResult">
+      <p>Search for a city to see weather</p>
+    </div>
+
+    <div class="forecast" id="forecast">
+      <h3>5-Day Forecast</h3>
+      <div class="forecast-cards" id="forecastCards"></div>
+    </div>
+  </div>
+
+  <!-- IMP: Script shevti ch pahije -->
+  <script src="script.js"></script>
+</body>
+</html>
